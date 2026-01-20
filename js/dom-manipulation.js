@@ -9,12 +9,13 @@ newPara.textContent = "A new element has been added";
 document.body.appendChild(newPara);
 
 // Remove element
-// newPara.remove();
+// newPara.remove(); 
 
 
 //  Change image source
 let image = document.getElementById("myImage");
-image.src = "https://i.pinimg.com/1200x/a0/93/c2/a093c2fc39bfbac6fc40f3975c98daf5.jpg";
+image.src = "https://i.pinimg.com/1200x/a0/93/c2/a093c2fc39bfbac6fc40f3975c98daf5.jpg"; // replaces the old image with this
+
 
 // Read input value and display
 let inputField = document.getElementById("nameInput");

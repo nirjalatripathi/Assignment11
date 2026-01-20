@@ -1,5 +1,4 @@
 //  Accessing elements
-
 let heading = document.getElementById("mainHeading");
 let paragraphs = document.getElementsByClassName("text");
 let buttons = document.getElementsByTagName("button");

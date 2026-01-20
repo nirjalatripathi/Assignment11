@@ -1,16 +1,18 @@
-
-// Button click 
-let button = document.getElementById("clickBtn");
-
-button.addEventListener("click", function () {
-    alert("Button clicked!");
+document.addEventListener("DOMContentLoaded", function () {
+ // Button click 
+let button = document.getElementById("click-btn");
+click-btn.addEventListener("click", function () {
+   alert("Button clicked!");
 });
 
 // Mouse enter & leave
-let box = document.getElementById("box");
+let hoverDiv = document.getElementById("hover-div");
 
-box.addEventListener("mouseleave", function () {
-    box.style.backgroundColor = "lightgreen";
+hoverDiv.addEventListener("mouseenter", function () {
+    hoverDiv.style.backgroundColor = "lightgreen";
+});
+hoverDiv.addEventListener("mouseleave", function(){
+    hoverDiv.style.backgroundColor="purple";
 });
 
 //  Keyup event
@@ -20,7 +22,6 @@ let output = document.getElementById("output");
 input.addEventListener("keyup", function () {
     output.textContent = input.value;
 });
-
 
 // Prevent form submission
 let form = document.getElementById("myForm");
@@ -37,5 +38,5 @@ form.addEventListener("submit", function (event) {
         message.textContent = "Form submitted";
     }
 });
-
+});
 
