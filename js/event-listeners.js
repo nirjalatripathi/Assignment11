@@ -1,7 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
  // Button click 
-let button = document.getElementById("click-btn");
-click-btn.addEventListener("click", function () {
+let button = document.getElementById("dom-buton");
+console.log("hello");
+button.addEventListener("click", function () {
    alert("Button clicked!");
 });
 
